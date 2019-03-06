@@ -21,13 +21,13 @@ private:
 
 public:
     //Default Constructor
-    Galaxy():
-    name{"Unknown"},
-    hubbleType{"Unspecified"},
-    redshift{0},
-    totalMass{0},
-    stellarMassFraction{0}
-    {}
+    Galaxy(){
+        name = "Unkown";
+        hubbleType = "Unspecified";
+        redshift = 0;
+        totalMass = 0;
+        stellarMassFraction = 0;
+    }
     
     //Constructor
     Galaxy(string name, string gType, double gShift, double gMass, double gFract):
