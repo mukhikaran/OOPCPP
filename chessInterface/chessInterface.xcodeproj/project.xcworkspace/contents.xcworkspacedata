@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/board.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/board.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/pieces.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/pieces.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/square.h">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5CBC8B022562D5600A732B6 /* square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5CBC8AF22562D5600A732B6 /* square.cpp */; };
+		D5CBC8B622562D5E00A732B6 /* pieces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5CBC8B122562D5C00A732B6 /* pieces.cpp */; };
+		D5CBC8B722562D5E00A732B6 /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5CBC8B322562D5D00A732B6 /* board.cpp */; };
+		D5F3D16022523D8700038AD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5F3D15F22523D8700038AD8 /* main.cpp */; };
+		D5F3D16822523EE300038AD8 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5F3D16622523EE300038AD8 /* game.cpp */; };
+		D5F3D16B225245C600038AD8 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5F3D169225245C600038AD8 /* player.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5F3D15A22523D8700038AD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5CBC8AF22562D5600A732B6 /* square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = square.cpp; path = ../../Chess/Chess/square.cpp; sourceTree = "<group>"; };
+		D5CBC8B122562D5C00A732B6 /* pieces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pieces.cpp; path = /Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/pieces.cpp; sourceTree = "<absolute>"; };
+		D5CBC8B322562D5D00A732B6 /* board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = board.cpp; path = /Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/board.cpp; sourceTree = "<absolute>"; };
+		D5CBC8B422562D5D00A732B6 /* pieces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pieces.h; path = /Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/pieces.h; sourceTree = "<absolute>"; };
+		D5CBC8B522562D5E00A732B6 /* square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = square.h; path = /Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/square.h; sourceTree = "<absolute>"; };
+		D5CBC8B922562E2400A732B6 /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = board.h; path = ../../../../board.h; sourceTree = "<group>"; };
+		D5CBC8C2225630AD00A732B6 /* board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = board.h; path = /Users/karanmukhi/Desktop/GitHub/OOPCPP/chessInterface/chessInterface/board.h; sourceTree = "<absolute>"; };
+		D5F3D15C22523D8700038AD8 /* chessInterface */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chessInterface; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F3D15F22523D8700038AD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D5F3D16622523EE300038AD8 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		D5F3D16722523EE300038AD8 /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		D5F3D169225245C600038AD8 /* player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		D5F3D16A225245C600038AD8 /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F3D15922523D8700038AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5F3D15322523D8700038AD8 = {
+			isa = PBXGroup;
+			children = (
+				D5F3D15E22523D8700038AD8 /* chessInterface */,
+				D5F3D15D22523D8700038AD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F3D15D22523D8700038AD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F3D15C22523D8700038AD8 /* chessInterface */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F3D15E22523D8700038AD8 /* chessInterface */ = {
+			isa = PBXGroup;
+			children = (
+				D5F3D15F22523D8700038AD8 /* main.cpp */,
+				D5F3D16722523EE300038AD8 /* game.h */,
+				D5F3D16A225245C600038AD8 /* player.h */,
+				D5CBC8B922562E2400A732B6 /* board.h */,
+				D5CBC8C2225630AD00A732B6 /* board.h */,
+				D5CBC8B522562D5E00A732B6 /* square.h */,
+				D5CBC8B422562D5D00A732B6 /* pieces.h */,
+				D5F3D16622523EE300038AD8 /* game.cpp */,
+				D5F3D169225245C600038AD8 /* player.cpp */,
+				D5CBC8B322562D5D00A732B6 /* board.cpp */,
+				D5CBC8AF22562D5600A732B6 /* square.cpp */,
+				D5CBC8B122562D5C00A732B6 /* pieces.cpp */,
+			);
+			path = chessInterface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F3D15B22523D8700038AD8 /* chessInterface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F3D16322523D8700038AD8 /* Build configuration list for PBXNativeTarget "chessInterface" */;
+			buildPhases = (
+				D5F3D15822523D8700038AD8 /* Sources */,
+				D5F3D15922523D8700038AD8 /* Frameworks */,
+				D5F3D15A22523D8700038AD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chessInterface;
+			productName = chessInterface;
+			productReference = D5F3D15C22523D8700038AD8 /* chessInterface */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F3D15422523D8700038AD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Karan Mukhi";
+				TargetAttributes = {
+					D5F3D15B22523D8700038AD8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D5F3D15722523D8700038AD8 /* Build configuration list for PBXProject "chessInterface" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5F3D15322523D8700038AD8;
+			productRefGroup = D5F3D15D22523D8700038AD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F3D15B22523D8700038AD8 /* chessInterface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F3D15822523D8700038AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CBC8B622562D5E00A732B6 /* pieces.cpp in Sources */,
+				D5CBC8B022562D5600A732B6 /* square.cpp in Sources */,
+				D5CBC8B722562D5E00A732B6 /* board.cpp in Sources */,
+				D5F3D16022523D8700038AD8 /* main.cpp in Sources */,
+				D5F3D16822523EE300038AD8 /* game.cpp in Sources */,
+				D5F3D16B225245C600038AD8 /* player.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5F3D16122523D8700038AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5F3D16222523D8700038AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D5F3D16422523D8700038AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5F3D16522523D8700038AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F3D15722523D8700038AD8 /* Build configuration list for PBXProject "chessInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F3D16122523D8700038AD8 /* Debug */,
+				D5F3D16222523D8700038AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F3D16322523D8700038AD8 /* Build configuration list for PBXNativeTarget "chessInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F3D16422523D8700038AD8 /* Debug */,
+				D5F3D16522523D8700038AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5F3D15422523D8700038AD8 /* Project object */;
+}
