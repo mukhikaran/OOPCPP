@@ -2,6 +2,33 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:chessMaster.xcodeproj">
+      location = "group:../../../../ChessBackup/board.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/board.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/game.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/game.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/main.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/piece.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/piece.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/player.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/player.hpp">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

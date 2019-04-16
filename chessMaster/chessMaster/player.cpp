@@ -7,3 +7,70 @@
 //
 
 #include "player.hpp"
+squareCode interpret(std::string stringSquare){
+    //Interprets the user input and converts to squareCode structure - a number between 1 and 8 for the row and column. Throws error code 2 or 3 for bad column or row, respectively.
+    char col(stringSquare[0]), rowChar(stringSquare[1]);
+    int row = rowChar - '0';
+    squareCode result;
+    switch(col){
+        case 'A':
+        case 'a':
+            result.col = 1;
+            break;
+        case 'B':
+        case 'b':
+            result.col = 2;
+            break;
+        case 'C':
+        case 'c':
+            result.col = 3;
+            break;
+        case 'D':
+        case 'd':
+            result.col = 4;
+            break;
+        case 'E':
+        case 'e':
+            result.col = 5;
+            break;
+        case 'F':
+        case 'f':
+            result.col = 6;
+            break;
+        case 'G':
+        case 'g':
+            result.col = 7;
+            break;
+        case 'H':
+        case 'h':
+            result.col = 8;
+            break;
+        default: throw 2;
+    }
+    if(row < 0 || row > 8) throw 3;
+    else result.row = row;
+    return result;
+}
+
+player::player(std::string playerName, bool playerColour){
+    name = playerName;
+    colour = playerColour;
+}
+
+moveCode player::getMove() const{
+    //Prompts players to enter a move and returns a moveCode struct. Errors 1,2,3 are thrown if the input is faulty.
+    moveCode move;
+    std::string input, stringSquare;
+    std::cout << " please enter a move:\n";
+    std::getline(std::cin, input);
+    size_t space = input.find(" to");
+    if(space!= 2) throw 1;
+    stringSquare = input.substr(0,2);
+    move.initialSquare = interpret(stringSquare);
+    stringSquare = input.substr(6,2);
+    std::cout << stringSquare << std::endl;
+    move.finalSquare = interpret(stringSquare);
+    return move;
+}
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../../../ChessBackup/board.cpp">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
+   <FileRef
+      location = "group:../../../../ChessBackup/board.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/game.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/game.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/main.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/piece.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/piece.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/player.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../ChessBackup/player.hpp">
+   </FileRef>
+   <FileRef
+      location = "self:chess.1.xcodeproj">
+   </FileRef>
+</Workspace>
